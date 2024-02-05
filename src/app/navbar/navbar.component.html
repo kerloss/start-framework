@@ -1,0 +1,18 @@
+<nav class="navbar navbar-dark navbar-expand-lg fixed-top"[ngClass]="padding?'scroll':'nonscroll'"> <!-- or [class]="padd?'py-4':'py-0'" -->
+    <div class="container fw-bold">
+        <a class="navbar-brand text-white fs-2 text-uppercase" routerLink="home">start framework</a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link text-white me-3 text-uppercase rounded-5" aria-current="page" routerLinkActive="activeNavBar" routerLink="about">about</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white me-3 text-uppercase rounded-5" routerLinkActive="activeNavBar" routerLink="portfolio">portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white me-3 text-uppercase rounded-5" routerLinkActive="activeNavBar" routerLink="contact">contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

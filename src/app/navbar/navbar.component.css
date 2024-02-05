@@ -1,0 +1,18 @@
+.navbar {
+    background-color: #2c3e50;
+}
+
+.scroll {
+    padding: 0 0;
+    transition: all 0.7s;
+}
+
+.nonscroll {
+    padding: 24px 0;
+    font-size: 32px;
+    transition: all 0.7s;
+}
+
+.activeNavBar {
+    background-color: #1ABC9C;
+}

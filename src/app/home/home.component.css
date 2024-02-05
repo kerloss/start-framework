@@ -1,0 +1,9 @@
+img {
+    background-color: white;
+    border-radius: 50%;
+}
+
+.line {
+    width: 80px;
+    height: 4px;
+}

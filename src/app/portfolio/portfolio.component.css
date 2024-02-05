@@ -1,0 +1,21 @@
+h2,
+i {
+    color: #2C3E50;
+}
+
+.line {
+    background-color: #2C3E50;
+    width: 80px;
+    height: 4px;
+}
+
+.layer {
+    background-color: rgba(26, 188, 156, 0.8);
+    /* opacity: 50%; */
+    top: 100%;
+    transition: all 0.8s ease-in-out;
+}
+
+.image-container:hover .layer {
+    top: 0;
+}
