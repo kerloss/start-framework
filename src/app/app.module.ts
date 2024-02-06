@@ -11,6 +11,7 @@ import { AboutComponent } from './about/about.component';
 import { NotfoundComponent } from './notfound/notfound.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ContactComponent } from './contact/contact.component';
+import { StarComponent } from './star/star.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { ContactComponent } from './contact/contact.component';
     NotfoundComponent,
     PortfolioComponent,
     ContactComponent,
+    StarComponent,
   ],
   imports: [
     BrowserModule,

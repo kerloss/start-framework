@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AboutComponent {
   bgAbout: string = "background-color:#1ABC9C";
+
+  header: string = "about component";
+  colorStar: string = "color:white";
+  colorLine: string = "background-color:white";
+  colorHeader: string = 'color:white';
 }

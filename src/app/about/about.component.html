@@ -1,14 +1,7 @@
 <section class="about mt-5" [style]="bgAbout">
     <div class="container mt-5">
         <div class="d-flex flex-column align-items-center pt-5">
-            <div class="text-center">
-                <h2 class="text-uppercase fs-1 fw-bold text-white my-4">about component</h2>
-                <div class="mb-4 d-flex justify-content-center align-items-center">
-                    <div class="line"></div>
-                    <i class="fa-solid fa-star text-white mx-3"></i>
-                    <div class="line"></div>
-                </div>
-            </div>
+            <app-star [headerFromParent]="header" [colorStarFromParent]="colorStar" [colorLineFromParent]="colorLine" [colorHeaderFromparent]="colorHeader"></app-star>
             <div class="container">
                 <div class="row px-5 text-white">
                     <div class="col-md-6 ps-md-5">

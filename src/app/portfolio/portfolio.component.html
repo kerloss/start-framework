@@ -1,15 +1,6 @@
 <section class="portfolio mt-5">
     <div class="container mt-5">
-        <div class="d-flex flex-column align-items-center pt-5">
-            <div class="text-center">
-                <h2 class="text-uppercase fs-1 fw-bold my-4">portfolio component</h2>
-                <div class="mb-4 d-flex justify-content-center align-items-center">
-                    <div class="line"></div>
-                    <i class="fa-solid fa-star mx-3"></i>
-                    <div class="line"></div>
-                </div>
-            </div>
-        </div>
+        <app-star [headerFromParent]="header"></app-star>
         <div class="row g-5 mb-4" *ngIf="portfolios.length>0;else hide">
             <div class="col-lg-4 col-md-6" *ngFor="let portfolio of portfolios">
                 <div class="image-container rounded-3 overflow-hidden position-relative">

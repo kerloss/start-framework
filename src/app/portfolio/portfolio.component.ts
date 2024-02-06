@@ -14,4 +14,6 @@ export class PortfolioComponent {
     { url: './assets/img/port2.png', alt: 'port2' },
     { url: './assets/img/port3.png', alt: 'port3' }
   ];
+
+  header: string = "portfolio component";
 }
